@@ -318,9 +318,9 @@
           // Ensure video is muted (critical for autoplay)
           videoElement.muted = true;
           if (isMobile) {
-            videoElement.src = '//.com/cdn/shop/t/21/assets/home-mobile-hero.mp4?v=180217228385860137171734445903';
+            videoElement.src = './exd_files/home-hero.mp4';
           } else {
-            videoElement.src = '//.com/cdn/shop/t/21/assets/home-desktop-hero.mp4?v=149111846225145630441734391155';
+            videoElement.src = './exd_files/home-hero.mp4';
           }
           // More aggressive autoplay attempt
           videoElement.play().catch((error) => {
