@@ -171,7 +171,7 @@ svg {
 .btn.-dark:hover,
 .btn.-dark:active {
   background-color: #c92c2a;
-  color: #222;
+  color: #fff;
   border-color: #c92c2a;
 }
 @keyframes fadeIn {
@@ -6270,7 +6270,7 @@ h6 {
     padding-top: 4.5rem;
     padding-bottom: 4.5rem;
     padding-left: 5rem;
-    padding-left: 5rem;
+    padding-right: 5rem;
     position: relative;
 }
 .commercialresidential::after {
