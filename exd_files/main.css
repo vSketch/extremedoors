@@ -6283,6 +6283,18 @@ h6 {
     display: block;
     background: linear-gradient(to right, #000, transparent);
 }
+@media (max-width: 767px) {
+    .commercialresidential {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+}
+@media (max-width: 1681px) {
+    .commercialresidential {
+        padding-left: 2rem;
+        padding-right: 2rem;
+    }
+}
 @media (min-width: 1681px) {
     .commercialresidential {
         padding-left: calc((100% - 1681px) / 2 + 2rem);
